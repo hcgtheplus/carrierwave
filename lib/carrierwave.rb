@@ -30,7 +30,7 @@ module CarrierWave
 
 end
 
-if defined?(Jets)
+if defined?(Jets::Turbine)
 
   module CarrierWave
     class Turbine < Jets::Turbine
